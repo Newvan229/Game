@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		 
+
+		 .predmet1{
+		 	width: 50px;
+		 	height: 50px;
+		 	position: absolute;
+		 	top: 790px;
+		 	left: 1700px;
+
+		 }
+
+
+		 .predmet2{
+		 	width: 50px;
+		 	height: 50px;
+		 	position: absolute;
+		 	top: 1190px;
+		 	left: 1000px;
+		 }
+
+		 .predmet3{
+		 	width: 50px;
+		 	height: 50px;
+		 	position: absolute;
+		 	top: 590px;
+		 	left: 200px;
+		 }
+
+		 .predmet4{
+		 	width: 50px;
+		 	height: 50px;
+		 	position: absolute;
+		 	top: 590px;
+		 	left: 925px;
+		 }
+
+		  .predmet5{
+		 	width: 30px;
+		 	height: 30px;
+		 	position: absolute;
+		 	top: 1110px;
+		 	left: 965px;
+		 }
+
+
+
+
+	</style>
+</head>
+<body>
+		
+
+	<h4>Найди на карте предметы</h4>
+	<h4 class="fish5">1:Мяч</h4>
+	<h4 class="fish3 ">2:Птицу</h4>
+	<h4 class="fish2">3:Человека из майнкрафта</h4>
+	<h4 class="fish1">4:Рыбу</h4>
+	<h4 class="fish4">5:собаку</h4>
+ 
+	<img src="1.webp" >
+
+	<img src="123.png" class="predmet1">
+	<img src="234.png" class="predmet2">
+	<img src="345.png" class="predmet3">
+	<img src="456.png" class="predmet4">
+	<img src="567.png" class="predmet5">
+	
+
+     <script type="text/javascript">
+     	
+     	document.querySelector(".predmet1").onclick = function(){
+     		document.querySelector(".predmet1").style.display = "none"
+     		alert("ты нашол мяч ")
+     		document.querySelector(".fish5").style.textDecoration = "line-through"
+     	}
+
+     	document.querySelector(".predmet2").onclick = function(){
+     		document.querySelector(".predmet2").style.display = "none"
+     		alert("ты нашол собаку")
+     		document.querySelector(".fish4").style.textDecoration = "line-through"
+     	}
+     	
+
+
+     	document.querySelector(".predmet3").onclick = function(){
+     		document.querySelector(".predmet3").style.display = "none"
+     		alert("ты нашол птицу")
+     		document.querySelector(".fish3").style.textDecoration = "line-through"
+     	}
+
+     	document.querySelector(".predmet4").onclick = function(){
+     		document.querySelector(".predmet4").style.display = "none"
+     		alert("ты нашол Человека из майнкрафта ")
+     		document.querySelector(".fish2").style.textDecoration = "line-through"
+     	}
+
+
+     	document.querySelector(".predmet5").onclick = function(){
+     		document.querySelector(".predmet5").style.display = "none"
+     		alert("ты нашел рыбу")
+     		document.querySelector(".fish1").style.textDecoration = "line-through"
+     	}
+
+
+
+
+
+
+
+
+     </script>
+
+</body>
+</html>
